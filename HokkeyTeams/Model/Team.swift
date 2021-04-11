@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct Team: Decodable {
     let team: TeamDetails
 }

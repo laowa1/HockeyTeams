@@ -29,5 +29,4 @@ class TeamCell: UITableViewCell {
             }
         }
     }
-
 }

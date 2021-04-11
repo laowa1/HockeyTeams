@@ -8,12 +8,12 @@
 import Foundation
 
 struct Player: Decodable {
-        let shirt_number: Int?
-        let name: String?
-        let image: String?
-        let team: PlayerTeam
-    }
+    let shirt_number: Int?
+    let name: String?
+    let image: String?
+    let team: PlayerTeam
+}
 
-    struct PlayerTeam: Codable {
-        let name: String?
+struct PlayerTeam: Codable {
+    let name: String?
 }
