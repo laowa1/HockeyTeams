@@ -128,7 +128,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlayerCell" rowHeight="125" id="IOd-31-aTf">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlayerCell" rowHeight="125" id="IOd-31-aTf" customClass="PlayerCell" customModule="HokkeyTeams" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="125"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IOd-31-aTf" id="tHK-uG-5vb">
@@ -176,6 +176,12 @@
                                         <constraint firstItem="fT8-jb-cP7" firstAttribute="leading" secondItem="ynk-yV-5wY" secondAttribute="trailing" constant="8" symbolic="YES" id="yly-2N-ic9"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="playerImage" destination="ynk-yV-5wY" id="6qI-oD-6Qg"/>
+                                    <outlet property="playerName" destination="aUM-wg-w9a" id="nxP-EI-Amc"/>
+                                    <outlet property="playerNumber" destination="6CB-yv-m07" id="vz4-M0-4S9"/>
+                                    <outlet property="playerTeam" destination="k2t-QS-5RT" id="m7R-MK-Xo9"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
