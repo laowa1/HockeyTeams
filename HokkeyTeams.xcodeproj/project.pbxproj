@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		A2E2F84126237611009B6BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E2F84026237611009B6BBA /* AppDelegate.swift */; };
 		A2E2F84326237611009B6BBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E2F84226237611009B6BBA /* SceneDelegate.swift */; };
-		A2E2F84526237611009B6BBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E2F84426237611009B6BBA /* ViewController.swift */; };
-		A2E2F84826237611009B6BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E2F84626237611009B6BBA /* Main.storyboard */; };
+		A2E2F84826237611009B6BBA /* Teams.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E2F84626237611009B6BBA /* Teams.storyboard */; };
 		A2E2F84A26237612009B6BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E2F84926237612009B6BBA /* Assets.xcassets */; };
 		A2E2F84D26237612009B6BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E2F84B26237612009B6BBA /* LaunchScreen.storyboard */; };
+		A2E2F85F262381E8009B6BBA /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E2F85E262381E8009B6BBA /* TeamViewController.swift */; };
+		A2E2F862262381F5009B6BBA /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E2F861262381F5009B6BBA /* PlayerViewController.swift */; };
+		A2E2F865262382AC009B6BBA /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E2F864262382AC009B6BBA /* TeamCell.swift */; };
+		A2E2F868262382B8009B6BBA /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E2F867262382B8009B6BBA /* PlayerCell.swift */; };
+		A2E2F86B26238467009B6BBA /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E2F86A26238467009B6BBA /* Player.swift */; };
+		A2E2F86E26238510009B6BBA /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E2F86D26238510009B6BBA /* Team.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A2E2F83D26237611009B6BBA /* HokkeyTeams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HokkeyTeams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E2F84026237611009B6BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2E2F84226237611009B6BBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2E2F84426237611009B6BBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A2E2F84726237611009B6BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2E2F84726237611009B6BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Teams.storyboard; sourceTree = "<group>"; };
 		A2E2F84926237612009B6BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2E2F84C26237612009B6BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2E2F84E26237612009B6BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2E2F85E262381E8009B6BBA /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		A2E2F861262381F5009B6BBA /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		A2E2F864262382AC009B6BBA /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		A2E2F867262382B8009B6BBA /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		A2E2F86A26238467009B6BBA /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A2E2F86D26238510009B6BBA /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,68 @@
 		A2E2F83F26237611009B6BBA /* HokkeyTeams */ = {
 			isa = PBXGroup;
 			children = (
-				A2E2F84026237611009B6BBA /* AppDelegate.swift */,
-				A2E2F84226237611009B6BBA /* SceneDelegate.swift */,
-				A2E2F84426237611009B6BBA /* ViewController.swift */,
-				A2E2F84626237611009B6BBA /* Main.storyboard */,
-				A2E2F84926237612009B6BBA /* Assets.xcassets */,
-				A2E2F84B26237612009B6BBA /* LaunchScreen.storyboard */,
+				A2E2F85926237682009B6BBA /* Model */,
+				A2E2F85A26237689009B6BBA /* View */,
+				A2E2F85B26237693009B6BBA /* Controller */,
+				A2E2F85826237665009B6BBA /* StoryBoards */,
+				A2E2F8562623763D009B6BBA /* Supporting File */,
+				A2E2F8552623761D009B6BBA /* Resourses */,
 				A2E2F84E26237612009B6BBA /* Info.plist */,
 			);
 			path = HokkeyTeams;
+			sourceTree = "<group>";
+		};
+		A2E2F8552623761D009B6BBA /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				A2E2F84926237612009B6BBA /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		A2E2F8562623763D009B6BBA /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				A2E2F84026237611009B6BBA /* AppDelegate.swift */,
+				A2E2F84226237611009B6BBA /* SceneDelegate.swift */,
+			);
+			path = "Supporting File";
+			sourceTree = "<group>";
+		};
+		A2E2F85826237665009B6BBA /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				A2E2F84626237611009B6BBA /* Teams.storyboard */,
+				A2E2F84B26237612009B6BBA /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		A2E2F85926237682009B6BBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2E2F86A26238467009B6BBA /* Player.swift */,
+				A2E2F86D26238510009B6BBA /* Team.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2E2F85A26237689009B6BBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2E2F85E262381E8009B6BBA /* TeamViewController.swift */,
+				A2E2F861262381F5009B6BBA /* PlayerViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2E2F85B26237693009B6BBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2E2F864262382AC009B6BBA /* TeamCell.swift */,
+				A2E2F867262382B8009B6BBA /* PlayerCell.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +189,7 @@
 			files = (
 				A2E2F84D26237612009B6BBA /* LaunchScreen.storyboard in Resources */,
 				A2E2F84A26237612009B6BBA /* Assets.xcassets in Resources */,
-				A2E2F84826237611009B6BBA /* Main.storyboard in Resources */,
+				A2E2F84826237611009B6BBA /* Teams.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +200,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2E2F84526237611009B6BBA /* ViewController.swift in Sources */,
+				A2E2F868262382B8009B6BBA /* PlayerCell.swift in Sources */,
 				A2E2F84126237611009B6BBA /* AppDelegate.swift in Sources */,
+				A2E2F862262381F5009B6BBA /* PlayerViewController.swift in Sources */,
+				A2E2F865262382AC009B6BBA /* TeamCell.swift in Sources */,
+				A2E2F86E26238510009B6BBA /* Team.swift in Sources */,
+				A2E2F86B26238467009B6BBA /* Player.swift in Sources */,
+				A2E2F85F262381E8009B6BBA /* TeamViewController.swift in Sources */,
 				A2E2F84326237611009B6BBA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,12 +214,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A2E2F84626237611009B6BBA /* Main.storyboard */ = {
+		A2E2F84626237611009B6BBA /* Teams.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A2E2F84726237611009B6BBA /* Base */,
 			);
-			name = Main.storyboard;
+			name = Teams.storyboard;
 			sourceTree = "<group>";
 		};
 		A2E2F84B26237612009B6BBA /* LaunchScreen.storyboard */ = {
